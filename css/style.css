@@ -8,7 +8,7 @@
   margin-left: auto;
   margin-right: auto;
   text-align: center;
-  max-width: 1200px;
+  max-width: 1140px;
 }
 
 .title {
@@ -22,7 +22,7 @@
 .list {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: space-between;
   margin-top: 20px;
 }
 
@@ -31,7 +31,7 @@
   border-radius: 8px;
   margin-bottom: 16px;
   padding: 24px 24px 20px;
-  width: 40%;
+  width: 44%;
 }
 
 .list__item__img {
@@ -76,6 +76,10 @@
   padding: 4px;
   text-align: center;
   user-select: text;
+}
+
+.tale {
+  text-align: left;
 }
 
 /* nice colors:
