@@ -1,18 +1,18 @@
 document.getElementById('batman').addEventListener('click',
-  () => window.open('../batman/index.html', '_blank'));
+  () => window.open('https://trainymonked.github.io/batman', '_blank'));
 document.getElementById('yoga-india').addEventListener('click',
-  () => window.open('../yoga-india/index.html', '_blank'));
+  () => window.open('https://trainymonked.github.io/yoga-india', '_blank'));
 document.getElementById('tetris').addEventListener('click',
-  () => window.open('../tetris/index.html', '_blank'));
+  () => window.open('https://trainymonked.github.io/tetris', '_blank'));
 document.getElementById('pixi-figures').addEventListener('click',
-  () => window.open('../pixi-figures/index.html', '_blank'));
+  () => window.open('https://trainymonked.github.io/pixi-figures', '_blank'));
 
 document.querySelectorAll('.list__item')
   .forEach(i => {
     i.addEventListener('mouseenter', e => {
-      e.target.style.opacity = 0.9;
+      e.target.firstElementChild.style.opacity = 0.5;
     });
     i.addEventListener('mouseleave', e => {
-      e.target.style.opacity = 1;
+      e.target.firstElementChild.style.opacity = 1;
     });
   });
