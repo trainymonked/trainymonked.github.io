@@ -1,104 +1,102 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>@trainymonked</title>
-  <link href="css/style.css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+  <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+  <title>Dmitry Mikhalkov | Frontend Developer</title>
+
+  <meta name="description" content="Frontend Developer" />
+  <meta name="author" content="Dmitry Mikhalkov" />
+  <!-- TODO -->
+  <!-- <meta name="google-site-verification" content="wX2xdkxqjrC4rA2EM-9bbaVpiEEFG8ae5azgeZDd-oo" /> -->
+  <meta property="og:title" content="Dmitry Mikhalkov | Frontend Developer" />
+  <meta property="og:site_name" content="Dmitry Mikhalkov Portfolio Website" />
+  <meta property="og:url" content="https://trainymonked.github.io/" />
+  <meta property="og:description" content="Frontend Developer" />
+  <meta property="og:type" content="website" />
+  <!-- TODO -->
+  <!-- <meta property="og:image" content="https://i.ibb.co/C8Wnkrt/pretty-snap-2022-3-29-16-11.png" /> -->
+
+  <link rel="stylesheet" href="style.css" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap"
+    rel="stylesheet" />
 </head>
 
 <body>
-  <div class="container">
-    <h1 class="title">@trainymonked - a few of my pets</h1>
-    <div class="list">
-
-      <div class="list__item">
-        <img id="yoga-india" src="img/yoga-india.jpg" alt="Yoga Tours" class="list__item__img">
-        <div class="list__item__info">
-          <div class="">
-            <h3 class="list__item__info__title">Large Landing Page Yoga Tours</h3>
-            <h4 class="list__item__info__desc">16 different blocks.<br>Fully responsive for any screens (FullHD and
-              lower)</h4>
-          </div>
-          <div class="list__item__info__tags">
-            <span class="list__item__info__tags__tag">HTML5</span>
-            <span class="list__item__info__tags__tag">CSS3</span>
-            <span class="list__item__info__tags__tag">Slick</span>
-          </div>
-        </div>
+  <header class="header">
+    <div class="header__content">
+      <div class="header__name">
+        <span class="header__name-sub">Dmitry Mikhalkov</span>
       </div>
-
-      <div class="list__item">
-        <img id="todo" src="img/todo.png" alt="Fancy TODO" class="list__item__img">
-        <div class="list__item__info">
-          <div class="">
-            <h3 class="list__item__info__title">Fancy TODO</h3>
-            <h4 class="list__item__info__desc">Schedule TODO.<br>Keyboard navigation, authorization, and some more
-              features
-            </h4>
-          </div>
-          <div class="list__item__info__tags">
-            <span class="list__item__info__tags__tag">React.js</span>
-            <span class="list__item__info__tags__tag">Context API</span>
-            <span class="list__item__info__tags__tag">Node.js</span>
-            <span class="list__item__info__tags__tag">MongoDB</span>
-          </div>
-        </div>
-      </div>
-
-      <div class="list__item">
-        <img id="pixi-figures" src="img/pixi-figures.jpg" alt="PixiJS Figures" class="list__item__img">
-        <div class="list__item__info">
-          <div class="">
-            <h3 class="list__item__info__title">Figures</h3>
-            <h4 class="list__item__info__desc">Figures mini game.<br>PixiJS library is used</h4>
-          </div>
-          <div class="list__item__info__tags">
-            <span class="list__item__info__tags__tag">HTML5</span>
-            <span class="list__item__info__tags__tag">JavaScript</span>
-            <span class="list__item__info__tags__tag">PixiJS</span>
-          </div>
-        </div>
-      </div>
-
-      <div class="list__item">
-        <img id="batman" src="img/batman.jpg" alt="KinoPulse" class="list__item__img">
-        <div class="list__item__info">
-          <div class="">
-            <h3 class="list__item__info__title">Landing Page KinoPulse</h3>
-            <h4 class="list__item__info__desc">Simple landing page as a task.<br>Responsive</h4>
-          </div>
-          <div class="list__item__info__tags">
-            <span class="list__item__info__tags__tag">HTML5</span>
-            <span class="list__item__info__tags__tag">CSS3</span>
-            <span class="list__item__info__tags__tag">JQuery</span>
-          </div>
-        </div>
-      </div>
-
-      <div class="list__item">
-        <img id="tetris" src="img/tetris.jpg" alt="Tetris" class="list__item__img">
-        <div class="list__item__info">
-          <div class="">
-            <h3 class="list__item__info__title">Tetris</h3>
-            <h4 class="list__item__info__desc">Tetris mini game.<br>Plain JavaScript</h4>
-          </div>
-          <div class="list__item__info__tags">
-            <span class="list__item__info__tags__tag">HTML5</span>
-            <span class="list__item__info__tags__tag">CSS3</span>
-            <span class="list__item__info__tags__tag">JavaScript</span>
-          </div>
-        </div>
-      </div>
-
+      <nav class="header__main">
+        <ul class="header__links">
+          <li class="header__link-wrapper">
+            <a href="./" class="header__link">Home</a>
+          </li>
+          <li class="header__link-wrapper">
+            <a href="./#about" class="header__link">About</a>
+          </li>
+          <li class="header__link-wrapper">
+            <a href="./#projects" class="header__link">Projects</a>
+          </li>
+          <li class="header__link-wrapper">
+            <a href="./#contact" class="header__link">Contact</a>
+          </li>
+        </ul>
+      </nav>
     </div>
-    <div class="tale">
-      <p>to be continued...</p>
+    <div class="header__menu"></div>
+  </header>
+
+  <section class="home">
+    <div class="home__content">
+      <h1 class="heading-primary">Hey, I'm Dmitry Mikhalkov</h1>
+      <div class="home__info">
+        <div class="text-primary">Frontend Developer</div>
+      </div>
+      <div class="home__cta">
+        <a href="./#projects" class="btn">Projects</a>
+      </div>
     </div>
-  </div>
-  <script src="js/js.js"></script>
+    <div class="home__socials"></div>
+  </section>
+
+  <section class="about">
+    <div class="container">
+      <h2 class="heading"></h2>
+      <div class="about__content">
+        <div class="about__content-main"></div>
+        <div class="about__content-skills"></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="projects">
+    <div class="container">
+      <h2 class="heading"></h2>
+      <div class="projects__content"></div>
+    </div>
+  </section>
+
+  <section class="contact">
+    <div class="container">
+      <h2 class="heading"></h2>
+      <!-- on the left - links, on the right - form -->
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <!-- about me & socials -->
+    </div>
+  </footer>
 </body>
 
 </html>
